@@ -1,0 +1,128 @@
+*{
+    justify-content: center;
+}
+body{
+    background: #34bd06;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin:0;
+    padding: 0;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 240px;
+    background-image: url("img/dzungla.jpg");
+    background-size: cover; /* Da slika popuni ceo body */
+    background-position: center; /* Da centriramo sliku */
+    background-repeat: no-repeat; /* Da izbegnemo ponavljanje slike */
+}
+.opis{
+    width: 100%;
+    background: #02751b;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: #fff;
+}
+.logo{
+    padding: 10px;
+    background: #34bd06;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height:100px;
+}
+.segment {
+    background: #05a502;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+    max-width: 600px;
+    min-width: 370px;
+    width: 50%;
+    border-radius: 30px;
+    margin: 10px auto;
+}
+main{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.segment h1 {
+    font-size: 40px;
+    margin-bottom: 10px; /* Dodato malo margine ispod naslova */
+}
+
+.container {
+    background: #fff;
+    margin: 10px auto; /* Centriraj container */
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 400px;
+    width: 80%;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between; /* Da bi naziv i cena bili na suprotnim stranama */
+}
+
+.naslov{
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    min-width: 370px;
+    border-radius: 30px;
+    background: #05a502;
+    margin-bottom: 60px;
+    margin: 10px auto;
+}
+
+.naziv{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.cena{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.ikonice{
+    width: 100%;
+    background: #02751b;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+}
+.ikonice img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #02751b;
+    color: white;
+    text-align: center;
+    height: 10vh;
+    justify-content: center;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 200px;
+    justify-content: center;
+}
